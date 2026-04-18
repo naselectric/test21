@@ -5,10 +5,10 @@ from psycopg2 import sql, OperationalError
 app = Flask(__name__)
 
 # Database connection settings
-DB_HOST = "localhost"
+DB_HOST = ""
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASS = "selcycib1"
+DB_PASS = ""
 
 def create_connection():
     """Create and return a PostgreSQL connection."""
