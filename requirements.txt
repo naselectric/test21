@@ -7,7 +7,6 @@ gunicorn==23.0.0
 ipython==8.12.3
 jsonpointer==2.1
 matplotlib==3.9.2
-mkl-service==2.4.0
 munkres==1.1.4
 pipreqs==0.5.0
 protobuf==3.20.3
