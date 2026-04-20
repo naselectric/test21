@@ -5,8 +5,8 @@ from psycopg2 import sql, OperationalError
 app = Flask(__name__)
 
 # Database connection settings
-DB_HOST = "localhost"
-DB_NAME = "postgresql-angular-52041"
+DB_HOST = "postgresql-angular-52041"
+DB_NAME = "postgres"
 DB_USER = "postgres"
 DB_PASS = "u5uprh4r9pbe7b"
 
