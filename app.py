@@ -5,10 +5,10 @@ from psycopg2 import sql, OperationalError
 app = Flask(__name__)
 
 # Database connection settings
-DB_HOST = "cacfu3mcmfvpcb.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com"
-DB_NAME = "da8dtnf0egi6bk"
-DB_USER = "u5uprh4r9pbe7b"
-DB_PASS = "pf84168705fee3d216f4c65c59785287a9f482002b2f22b363d38157174246a2f"
+# DB_HOST = "cacfu3mcmfvpcb.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com"
+# DB_NAME = "da8dtnf0egi6bk"
+# DB_USER = "u5uprh4r9pbe7b"
+# DB_PASS = "pf84168705fee3d216f4c65c59785287a9f482002b2f22b363d38157174246a2f"
 
 def create_connection():
     """Create and return a PostgreSQL connection."""
