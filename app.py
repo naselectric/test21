@@ -27,6 +27,18 @@ def create_connection():
 def index():
     return render_template('form.html')
 
+
+@app.route('/Elvis')
+def Elvis():
+    return render_template('Elvis.html')
+
+
+
+
+
+
+
+
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('name')
